@@ -1,8 +1,7 @@
 
 ## Machine Learning Scripts for training Pallet segmentation.  
 
-This repo contians automated pipeline for training and analysis of model. Object segmentation model using MaskRCNN with Detectron2 is used as a framework. 
-
+This repo contians automated pipeline for training and analysis of model.
 
 
 ## Usage:
@@ -22,17 +21,6 @@ This repo contians automated pipeline for training and analysis of model. Object
         ./start_training.sh
 
 
-## Models (Old):
-
-Use the following links for accessing the machine learning models and hyperparameters.\
-Model hyperparameters:
-
-        Hyperparameters: https://docs.google.com/spreadsheets/d/1GHMldCbbAou26cfFYkKpl1LtYK24sojHcdws-YC3w1k/edit?usp=sharing
-
-Images:
-    Train: 1801
-    Val:  967
-    Total: 2768
-
-		Pallet Segmentation Model - 
-		
+3. Goal is to do Pallet segmentation for measuring the length of pallet accurately in pixels.
+   ![Alt text](https://github.com/prathamsss/pallet_Segmentation/blob/main/pallet-1.png)
+      ![Alt text](https://github.com/prathamsss/pallet_Segmentation/blob/main/pallet-2.png)
