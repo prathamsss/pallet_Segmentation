@@ -1,0 +1,26 @@
+path_train_coco: "/home/ai-infinium/Desktop/Dataset/all_data/annotations/train.json"
+path_train_imgs:  "/home/ai-infinium/Desktop/Dataset/all_data/images"
+path_valid_coco: "/home/ai-infinium/Desktop/Dataset/all_data/annotations/test.json"
+path_valid_imgs: "/home/ai-infinium/Desktop/Dataset/all_data/images"
+NUM_WORKERS: 4
+PATH_TO_SAVE: "/home/ai-infinium/Desktop/temp"
+IMS_PER_BATCH: 16
+BASE_LR: 0.001
+MAX_ITER: 1
+BATCH_SIZE_PER_IMAGE: 512
+
+# Evaluation Params:
+
+PATH_TO_SAVE_EVALUATION: "/home/ai-infinium/Desktop/temp"
+
+#this should be annotaion file to do evluation from (generated from merge_coco_folders.py)
+COCO_FILE_TO_EVAL: "/home/ai-infinium/Desktop/Dataset/all_data/annotations/merged_pallet.json"
+
+#this should be images dir to do evluation from (generated from merge_coco_folders.py)
+IMAGES_PATH: "/home/ai-infinium/Desktop/Dataset/all_data/images"
+
+PATH_SAVE_CSV: "/home/ai-infinium/Desktop/temp/anaylsis.csv"
+
+#Pth to save hyper parameters and other history
+
+PATH_TO_SAVE_HISTORY: "/home/ai-infinium/Desktop/temp/history.csv"
